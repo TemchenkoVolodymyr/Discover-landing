@@ -1,0 +1,40 @@
+.container {
+  padding: 5px 45px;
+  height: 90%;
+  position: relative;
+}
+.container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .wrapper .containerInfo h1 {
+  max-width: 300px;
+  letter-spacing: 1.2px;
+  font-size: 40px;
+}
+.container .wrapper .containerNetworks span {
+  display: block;
+  height: 150px;
+  width: 10px;
+  border-right: 2px solid #1b7003;
+}
+.container .wrapper .containerNetworks .networkItems {
+  display: flex;
+  flex-direction: column;
+}
+.container .wrapper .containerNetworks .networkItems a {
+  color: #fdfdfd;
+}
+.container .wrapper .containerNetworks .networkItems svg {
+  font-size: 30px;
+  padding: 15px 0;
+  color: #198104;
+}
+.container .photosContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=HomeContent.module.css.map */
