@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 30%;
+}
+.container .wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #057c25;
+  justify-content: space-between;
+  padding: 5px;
+  color: #c0c0c0;
+}
+.container .wrapper p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+.container .wrapper .icon {
+  display: flex;
+  align-items: center;
+}
+.container .wrapper .icon svg {
+  font-size: 30px;
+  color: #057c25;
+  margin-left: 10px;
+}
+.container .wrapper .icon span {
+  border-right: 1px solid #057c25;
+  display: block;
+  height: 50px;
+  margin-left: 5px;
+}
+.container .wrapper .city {
+  font-weight: 900;
+  color: #08b224;
+}
+
+/*# sourceMappingURL=AddressSection.module.css.map */
