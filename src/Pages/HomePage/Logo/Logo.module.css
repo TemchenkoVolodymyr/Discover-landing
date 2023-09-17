@@ -1,19 +1,21 @@
 .container {
   display: flex;
   align-items: center;
+  padding-left: 45px;
 }
 .container img {
   max-width: 50px;
 }
 .container p {
   font-size: 20px;
-  color: #343434;
+  color: #ffffff;
   letter-spacing: 1.2px;
   margin-right: 15px;
   font-family: Dialog;
 }
 .container p span {
   font-weight: bolder;
+  color: #076c09;
 }
 
 /*# sourceMappingURL=Logo.module.css.map */
