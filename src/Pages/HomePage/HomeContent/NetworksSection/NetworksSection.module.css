@@ -1,0 +1,20 @@
+.container span {
+  display: block;
+  height: 150px;
+  width: 10px;
+  border-right: 2px solid #1b7003;
+}
+.container .networkItems {
+  display: flex;
+  flex-direction: column;
+}
+.container .networkItems a {
+  color: #fdfdfd;
+}
+.container .networkItems svg {
+  font-size: 30px;
+  padding: 15px 0;
+  color: #198104;
+}
+
+/*# sourceMappingURL=NetworksSection.module.css.map */

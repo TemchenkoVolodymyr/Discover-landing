@@ -17,32 +17,13 @@
         span{
           color: #057c25;
         }
-
       }
     }
-
-    .containerNetworks {
-      //margin-left: 5vh;
-      span {
-        display: block;
-        height: 150px;
-        width: 10px;
-        border-right: 2px solid #1b7003;
-      }
-
-      .networkItems {
-        display: flex;
-        flex-direction: column;
-
-        a {
-          color: #fdfdfd;
-        }
-
-        svg {
-          font-size: 30px;
-          padding: 15px 0;
-          color: #198104;
-        }
+    .containerWays{
+      //background-color: rgba(0, 0, 0, 0.38);
+      width: 30%;
+      img{
+        height: 600px;
       }
     }
   }

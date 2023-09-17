@@ -1,0 +1,23 @@
+.container {
+  span {
+    display: block;
+    height: 150px;
+    width: 10px;
+    border-right: 2px solid #1b7003;
+  }
+
+  .networkItems {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: #fdfdfd;
+    }
+
+    svg {
+      font-size: 30px;
+      padding: 15px 0;
+      color: #198104;
+    }
+  }
+}
