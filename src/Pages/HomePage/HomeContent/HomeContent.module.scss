@@ -1,6 +1,6 @@
 .container {
   padding: 5px 45px;
-  height: 90%;
+  height: 100vh;
   position: relative;
 
 
@@ -20,11 +20,17 @@
       }
     }
     .containerWays{
-      //background-color: rgba(0, 0, 0, 0.38);
       width: 30%;
       img{
         height: 600px;
+
       }
+      &:hover{
+        background-color: rgba(0, 0, 0, 0.12);
+        border-radius: 15px;
+        cursor: pointer;
+      }
+
     }
   }
 

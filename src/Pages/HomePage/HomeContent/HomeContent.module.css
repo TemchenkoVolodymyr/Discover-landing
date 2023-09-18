@@ -1,6 +1,6 @@
 .container {
   padding: 5px 45px;
-  height: 90%;
+  height: 100vh;
   position: relative;
 }
 .container .wrapper {
@@ -21,6 +21,11 @@
 }
 .container .wrapper .containerWays img {
   height: 600px;
+}
+.container .wrapper .containerWays:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  cursor: pointer;
 }
 .container .photosContainer {
   position: absolute;

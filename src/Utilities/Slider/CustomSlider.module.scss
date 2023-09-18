@@ -1,0 +1,34 @@
+.container{
+.wrapperSlider{
+  img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover{
+      //padding: 0 5px;
+      box-shadow: rgba(23, 138, 7, 0.4) 0px -17px, rgba(7, 152, 31, 0.3) 0px 0px, rgba(11, 138, 4, 0.2) 0px 15px, rgba(8, 122, 35, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+    }
+  }
+}
+  .wrapperImage{
+    padding:15px;
+    img{
+      border-radius: 25px 85px;
+      width: 600px;
+      height: 600px;
+      object-fit: cover;
+      &:hover{
+
+      }
+    }
+  }
+  .active{
+    padding: 10px 0;
+    box-shadow: rgba(23, 138, 7, 0.4) 0px -17px, rgba(7, 152, 31, 0.3) 0px 0px, rgba(11, 138, 4, 0.2) 0px 15px, rgba(8, 122, 35, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  }
+}

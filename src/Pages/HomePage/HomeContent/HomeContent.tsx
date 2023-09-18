@@ -3,7 +3,7 @@ import style from './HomeContent.module.scss'
 import AboutSection from "./AboutSection/AboutSection";
 import AddressSection from "./AddressSection/AddressSection";
 import NetworksSection from "./NetworksSection/NetworksSection";
-import mapImage from '../../../assets/map.png'
+import mapImage from '../../../assets/maps.png'
 
 const HomeContent = () => {
     return (
