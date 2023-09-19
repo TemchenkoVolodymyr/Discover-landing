@@ -1,0 +1,80 @@
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  //box-shadow: rgb(0, 0, 0) 0px -16px 105px 80px, rgb(0, 0, 0) 0px 0px 0px 1px;
+  box-shadow: rgb(0 0 0 / 96%) -12px -5px 65px 15px;
+  padding: 20vh 0;
+
+
+  .centerLine {
+    display: block;
+    height: 100%;
+    border-right: 2px solid #0a6904;
+    //width: 50px;
+  }
+
+  .firstBlock {
+    width: 100%;
+    //height: 100px;
+    border-bottom: 2px solid #05a419;
+    border-radius: 25px 5px;
+
+    .wrapperImages {
+      img {
+        max-width: 90px;
+        //max-height: 50px;
+        margin-right:10px;
+        border-radius: 5px 15px;
+      }
+    }
+    .wrapperInfo{
+      p{
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #d0cfcf;
+      }
+    }
+    .title{
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 2px;
+      color: #0fb404;
+      font-weight: 900;
+      border-bottom: 3px solid #00960c;
+      max-width: 300px;
+      padding: 5px;
+      span{
+        color: #dadada;
+      }
+
+    }
+  }
+
+  .wrapperBlocks {
+    padding:  0 15px;
+    width: 25%;
+
+    .first {
+      margin-top: 2vh;
+
+    }
+
+    .second {
+      margin-top: 10vh;
+    }
+
+    .third {
+      margin-top: 12vh;
+      border-radius: 5px 25px;
+      padding:  0 15px;
+    }
+
+    .fourth {
+      margin-top: 10vh;
+      border-radius: 5px 25px;
+      padding:  0 15px;
+    }
+  }
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.69);
   border-radius: 5px 20px;
-  box-shadow: rgb(0, 0, 0) 0px -16px 105px 80px, rgb(0, 0, 0) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.96) -12px -5px 65px 15px;
 }
 .container .wrapperTitle {
   display: flex;
