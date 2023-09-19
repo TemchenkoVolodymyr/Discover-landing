@@ -1,5 +1,18 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  border-bottom: 1px solid #1d7a03;
+  padding: 5px 0;
+}
+header h1 span {
+  color: #267905;
+}
+
 .container {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.65);
@@ -16,6 +29,11 @@
   border-bottom: 2px solid #05a419;
   border-radius: 25px 5px;
 }
+.container .firstBlock .wrapperImages {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
 .container .firstBlock .wrapperImages img {
   max-width: 90px;
   margin-right: 10px;
@@ -25,14 +43,15 @@
   font-size: 14px;
   letter-spacing: 1px;
   color: #d0cfcf;
+  line-height: 20px;
 }
 .container .firstBlock .title {
   display: flex;
   justify-content: space-between;
   letter-spacing: 2px;
-  color: #0fb404;
+  color: rgba(15, 180, 4, 0.73);
   font-weight: 900;
-  border-bottom: 3px solid #00960c;
+  border-bottom: 1px solid rgba(0, 150, 12, 0.37);
   max-width: 300px;
   padding: 5px;
 }
@@ -41,7 +60,7 @@
 }
 .container .wrapperBlocks {
   padding: 0 15px;
-  width: 25%;
+  width: 30%;
 }
 .container .wrapperBlocks .first {
   margin-top: 2vh;
