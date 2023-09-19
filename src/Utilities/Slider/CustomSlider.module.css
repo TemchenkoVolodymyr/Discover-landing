@@ -1,3 +1,12 @@
+.container header {
+  text-align: center;
+}
+.container .wrapperSlider {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .container .wrapperSlider img {
   width: 80px;
   height: 80px;

@@ -22,13 +22,13 @@ const PhotosSection = () => {
     const arrayOfAnimalsItemsSlider = [firstAnimal, secondAnimal, thirdAnimal, fourthAnimal, FifthAnimal, SixthAnimal, SeventhAnimal]
     return (
         <div className={style.container}>
-            <CustomSlider images={arrayOfItemsSlider}>
+            <CustomSlider title={'Natural of Tour'} images={arrayOfItemsSlider}>
             </CustomSlider>
             <div className={style.wrapperTitle}>
                 <img src={naturalImage} alt={'item-slider'}/>
             </div>
 
-            <CustomSlider images={arrayOfAnimalsItemsSlider}></CustomSlider>
+            <CustomSlider title={'Animals of Tour'} images={arrayOfAnimalsItemsSlider}></CustomSlider>
         </div>
     );
 };
